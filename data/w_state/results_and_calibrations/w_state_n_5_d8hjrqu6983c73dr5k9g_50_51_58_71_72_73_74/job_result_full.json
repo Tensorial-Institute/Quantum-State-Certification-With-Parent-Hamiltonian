@@ -1,0 +1,130 @@
+{
+  "result_jsonable": {
+    "__type__": "PrimitiveResult",
+    "__value__": {
+      "pub_results": [
+        {
+          "__type__": "PubResult",
+          "__value__": {
+            "data": {
+              "__type__": "DataBin",
+              "__value__": {
+                "field_names": [
+                  "evs",
+                  "stds",
+                  "ensemble_standard_error"
+                ],
+                "shape": [],
+                "fields": {
+                  "evs": {
+                    "__type__": "ndarray",
+                    "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqaOgq1ChQBrpi9ydNrFY7bAwA4xx71"
+                  },
+                  "stds": {
+                    "__type__": "ndarray",
+                    "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqaOgq1ChQBLtdV4lVbb06zBwA32h8i"
+                  },
+                  "ensemble_standard_error": {
+                    "__type__": "ndarray",
+                    "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqaOgq1ChQBrknCV+dHrZlhDwA5Xx81"
+                  }
+                }
+              }
+            },
+            "metadata": {
+              "shots": 16384,
+              "target_precision": 0.0078125,
+              "circuit_metadata": {},
+              "resilience": {},
+              "num_randomizations": 32
+            }
+          }
+        }
+      ],
+      "metadata": {
+        "dynamical_decoupling": {
+          "enable": false,
+          "sequence_type": "XX",
+          "extra_slack_distribution": "middle",
+          "scheduling_method": "alap"
+        },
+        "twirling": {
+          "enable_gates": false,
+          "enable_measure": true,
+          "num_randomizations": "auto",
+          "shots_per_randomization": "auto",
+          "interleave_randomizations": true,
+          "strategy": "active-accum"
+        },
+        "resilience": {
+          "measure_mitigation": true,
+          "zne_mitigation": false,
+          "pec_mitigation": false
+        },
+        "version": 2
+      }
+    }
+  },
+  "metadata": {
+    "dynamical_decoupling": {
+      "enable": false,
+      "sequence_type": "XX",
+      "extra_slack_distribution": "middle",
+      "scheduling_method": "alap"
+    },
+    "twirling": {
+      "enable_gates": false,
+      "enable_measure": true,
+      "num_randomizations": "auto",
+      "shots_per_randomization": "auto",
+      "interleave_randomizations": true,
+      "strategy": "active-accum"
+    },
+    "resilience": {
+      "measure_mitigation": true,
+      "zne_mitigation": false,
+      "pec_mitigation": false
+    },
+    "version": 2
+  },
+  "pub_results": [
+    {
+      "repr": "PubResult(data=DataBin(evs=np.ndarray(<shape=(), dtype=float64>), stds=np.ndarray(<shape=(), dtype=float64>), ensemble_standard_error=np.ndarray(<shape=(), dtype=float64>)), metadata={'shots': 16384, 'target_precision': 0.0078125, 'circuit_metadata': {}, 'resilience': {}, 'num_randomizations': 32})",
+      "metadata": {
+        "shots": 16384,
+        "target_precision": 0.0078125,
+        "circuit_metadata": {},
+        "resilience": {},
+        "num_randomizations": 32
+      },
+      "evs": 0.18067903415747366,
+      "stds": 0.022314868523532167,
+      "ensemble_standard_error": 0.024094978337661006,
+      "data": {
+        "__type__": "DataBin",
+        "__value__": {
+          "field_names": [
+            "evs",
+            "stds",
+            "ensemble_standard_error"
+          ],
+          "shape": [],
+          "fields": {
+            "evs": {
+              "__type__": "ndarray",
+              "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqaOgq1ChQBrpi9ydNrFY7bAwA4xx71"
+            },
+            "stds": {
+              "__type__": "ndarray",
+              "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqaOgq1ChQBLtdV4lVbb06zBwA32h8i"
+            },
+            "ensemble_standard_error": {
+              "__type__": "ndarray",
+              "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RqaOgq1ChQBrknCV+dHrZlhDwA5Xx81"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "job_id": {
+    "ok": true,
+    "data": "d8hjrne6983c73dr5jv0"
+  },
+  "backend_name": "ibm_quebec",
+  "status": "DONE",
+  "creation_date": {
+    "ok": true,
+    "data": {
+      "__type__": "datetime",
+      "__value__": "2026-06-05T17:21:33.243223-04:00"
+    }
+  },
+  "session_id": {
+    "ok": true,
+    "data": null
+  },
+  "primitive_id": {
+    "ok": true,
+    "data": "estimator"
+  },
+  "tags": {
+    "ok": true,
+    "data": [
+      "W_state_unmitigated_demonstration",
+      "estimator-w-state",
+      "n=2",
+      "phy_qubits=[24, 23, 22, 21, 36, 41, 40]"
+    ]
+  },
+  "usage_estimation": {
+    "ok": true,
+    "data": {
+      "quantum_seconds": 25.069177618
+    }
+  },
+  "metrics": {
+    "caller": "qiskit_ibm_runtime~estimator.py",
+    "qiskit_version": "qiskit_ibm_runtime-0.47.0,qiskit-2.4.1*,qiskit_aer-0.16.0,qiskit_addon_aqc_tensor-0.2.0,qiskit_addon_cutting-0.10.0,mthree-3.0.0",
+    "timestamps": {
+      "created": "2026-06-05T21:21:33.243223Z",
+      "finished": "2026-06-05T21:54:40.071284Z",
+      "running": "2026-06-05T21:52:46.282835Z"
+    },
+    "bss": {
+      "seconds": 24
+    },
+    "usage": {
+      "quantum_seconds": 24,
+      "seconds": 24,
+      "status": "complete"
+    }
+  },
+  "inputs": {
+    "version": 2,
+    "options": {
+      "default_shots": 16384
+    },
+    "pubs": [
+      [
+        {
+          "__type__": "QuantumCircuit",
+          "__value__": "eJylmAVwlGcURfcLEtxdg7u7uwSHoMEJFgge3N3dpe7u7u7u7u5eSluay54N3Glpp+0/E86eTP7dkP3euzfpn5jUM3FgwbgsEa4wcxaPykRyTYzkyHhwJOMjjk/GnfI4Xv+kpM5OmZuaXqdJo9gzLF46K5y4K4TYU2U++SnPoiv2qllhNpj91FfIuHLAnDAXzA3zwLwwH8wPC8CCsBAsDIvAorAYLA5LwJKwFCwNy8CysBwsDxNgBVgRVoKVYRVYFVaD1WENWBPWgrVhHVgX1oP1YQPYEMbes8awCWwKm8HmsAVsCVvB1rANbAvbwfawA+wIO8HOsAvsCrvB7jAR9oA9YS/YG/aBfWE/2B8OgElwIBwEB8MhcCgcBpPhcDgCjoSj4Gg4Bo6F42AKHA8nwIlwEpwMU+EUOBWmwWlwOpwBZ8LYPM6Gc2A6nAvnwflwAVwIF8HFcAlcCpfB5XAFXAlXwdVwDVwL18H1cAPcCDfBzXAL3Aq3we1wB9wJd8HdcA/cC/fB/fAAPAgPwcMp2mhxGZsu9k7GrmCWnc+EyF9fA4Z2G5s+Qe9O8dhbn6NEnc4Dj1U42u5f3Fwi8+aSsZvjuTHudDcnJ2fe/V9fP/kfvvnI39ycdPJ//v9eKBYdp7v55A8p+jUKtSPHM64IoXYitA5F4sPY6SmpaWmxUc18q+EReAY8E54Fz4bnwHPhefB8eAG8EF4EL4aXwEvhZfByeAW8El4Fr4bXwGvhdfB6eAO8Ed4Eb4a3wFvhbfB2eAe8E94F74b3wHvhffB++AB8ED4EH4aPwEfhY/Bx+AR8Ej4Fn4bPwGfhc/B5+AJ8Eb4EX4avwFfha/B1+AZ8E74F34bvwHfhe/B9+AH8EH4EP4afwE/hZ/Bz+AX8En4Fv4bfwG/hd/B7+AP8Ef4Ef4ZH4S/wGPwV/gZ/h8ejiI1f4EFg8QSqXqDqBeY1sCACVS9Q9QJVL1D1AlUvUPUCVS9Q9QJVL1D1AlUvUPUCVS9Q9QJVL1D1AlUvUPUCVS9Q9QJVL1D1AlUvUPUCVS8kQKpeoOoFql6g6gWqXqDqBapeoOoFql6g6gWqXqDqBapeoOoFql6g6gWqXqDqhUazYlFFCQiUvBArefEnF19wjXPN4prVNZtrdtd41xyuOV1zueZ2zeOa1zWfa37XAq4FXQu5FnYt4lrUtdiff5KZvwaFaM7ZF5RwLelayrW0axnXsq7lXMu7JrhWcK3oWsm1smsV16qu1Vyru9Zwrelay7W2ax3Xuq71XOu7NnBt6NrItbFrE9emrs1cm7u2cG3p2sq1tWsb17au7Vzbu3Zw7ejaybWzaxfXrq7dXLu7Jrr2cO3p2su1t2sf176u/Vz7uw5wTXId6DrIdbDrENehrsNck12Hu45wHek6ynW06xjXsa7jXFNcx7tOcJ3oOsl1smuq6xTXqa5prtNcp7vOcJ3pOst1tusc13TXua7zXOe7LnBd6LrIdbHrEtelrstcl7uucF3pusp1tesa17Wu61zXu25w3ei6yXWz6xbXra7bXLe77nDd6brLdbfrHte9rvtc97secD3oqnSO/REwRKJNSPVHnUdF50S7iUR7jMqLGotqirqJColaiKqH+oZKhpqF6oQ6hIqD2oIiXzmvcFeiK8aV3QrshEg0mpXHCmElr+JWGatgVZoqQpWbCkslpGJRWagAVOop6pRvCjUlmeJLmaWgUjopkpRDCh8ljmJG2aJAaR+JRofyQiGhZFAcKAO0+LXtteK117XMtcG1trWrtaC1lbWKtX+1dLVptV61U7VItT21MrUntRy1EbUGtfu08MZEoqtN+0xLTJtL60o7SotJ20grSHtHy0YbRmtFu0QLRFtDq0L7QUtBm0Djr5nXoGu6NdKaYw2vJlZjqtnUQK6IREdP86Yh02RpnDRDGhxNi0ZEc6Fh0ATo2Ous64DrVOso6/zq0Oqk6njqTOog6vTpyOmvDIf/AGpL1zg="
+        },
+        {
+          "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIII": -0.25,
+          "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIII": 0.25,
+          "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII": 0.75,
+          "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIII": -0.25
+        },
+        {
+          "__type__": "ndarray",
+          "__value__": "eJyb7BfqGxDJyFDGUK2eklqcXKRupaBuk2ahrqOgnpZfVFKUmBefX5SSChJ3S8wpTgWKF2ckFqQC+RoGOpo6CrUKFAAuAFOzG1s="
+        },
+        null
+      ]
+    ],
+    "support_qiskit": true
+  }
+}

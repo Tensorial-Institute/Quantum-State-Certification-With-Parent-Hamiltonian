@@ -1,0 +1,81 @@
+{
+  "job_id": "d8hjrn66983c73dr5jtg",
+  "source_file": "w_state_1780694493.0965009_2_[25, 24, 23, 22, 21, 36, 41].json",
+  "backend": "ibm_quebec",
+  "number_of_qubits": 2,
+  "physical_qubit_indices": [
+    25,
+    24,
+    23,
+    22,
+    21,
+    36,
+    41
+  ],
+  "expectation_value": 0.0033300291183942232,
+  "estimated_fidelity": 0.9966699708816058,
+  "shots": 16384,
+  "utc_execution_time": "2026-06-05T21:52:45.008836Z",
+  "sparsepauliop_observable": {
+    "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII": 0.75,
+    "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIXXIIIIIIIIIIIIIIIIIIIIIIII": -0.25,
+    "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIYYIIIIIIIIIIIIIIIIIIIIIIII": -0.25,
+    "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIZZIIIIIIIIIIIIIIIIIIIIIIII": 0.25
+  },
+  "error_mitigation_and_correction_settings": {
+    "resilience": {
+      "measure_mitigation": true,
+      "zne_mitigation": false,
+      "pec_mitigation": false
+    },
+    "dynamical_decoupling": {
+      "enable": false,
+      "sequence_type": "XX",
+      "extra_slack_distribution": "middle",
+      "scheduling_method": "alap"
+    },
+    "twirling": {
+      "enable_gates": false,
+      "enable_measure": true,
+      "num_randomizations": "auto",
+      "shots_per_randomization": "auto",
+      "interleave_randomizations": true,
+      "strategy": "active-accum"
+    }
+  },
+  "job_tags": [
+    "W_state_unmitigated_demonstration",
+    "estimator-w-state",
+    "n=2",
+    "phy_qubits=[25, 24, 23, 22, 21, 36, 41]"
+  ],
+  "result_metadata": {
+    "dynamical_decoupling": {
+      "enable": false,
+      "sequence_type": "XX",
+      "extra_slack_distribution": "middle",
+      "scheduling_method": "alap"
+    },
+    "twirling": {
+      "enable_gates": false,
+      "enable_measure": true,
+      "num_randomizations": "auto",
+      "shots_per_randomization": "auto",
+      "interleave_randomizations": true,
+      "strategy": "active-accum"
+    },
+    "resilience": {
+      "measure_mitigation": true,
+      "zne_mitigation": false,
+      "pec_mitigation": false
+    },
+    "version": 2
+  },
+  "pub_result_metadata": {
+    "shots": 16384,
+    "target_precision": 0.0078125,
+    "circuit_metadata": {},
+    "resilience": {},
+    "num_randomizations": 32
+  }
+}
